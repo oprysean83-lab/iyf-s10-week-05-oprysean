@@ -1,12 +1,12 @@
-Week 5: DOM Manipulation & Events Practice
+## Week 5: DOM Manipulation & Events Practice
 Author
-Name: Amos Kimiti
-GitHub: @Kimiti4
+Name:Dennis kibathi
+
 Date: March 31, 2026
-Project Description
+## Project Description
 This project focuses on mastering core JavaScript DOM manipulation and event handling concepts. It includes exercises on element selection, traversal, content modification, dynamic element creation/removal, event handling, event propagation, delegation, form validation, and a fully functional To-Do List application with localStorage persistence.
 
-Technologies Used
+## Technologies Used
 HTML5
 CSS3
 JavaScript (Vanilla JS)
@@ -23,7 +23,7 @@ Event bubbling and delegation
 Form validation with real-time feedback
 Interactive To-Do List with localStorage persistence
 Daily challenges (Color Changer, Dynamic Elements, Image Remover, Content Copier, Dark Mode)
-How to Run
+##How to Run
 Clone this repository
 Open index.html in your browser OR Open any HTML file directly:
 index.html - Full To-Do List application
@@ -34,7 +34,7 @@ DOM Assignments/day2-dynamic-elements.html - Day 2 challenge
 DOM Assignments/day3-image-remover.html - Day 3 challenge
 DOM Assignments/day4-content-copier.html - Day 4 challenge
 DOM Assignments/day5-dark-mode.html - Day 5 challenge
-Lessons Learned
+## Lessons Learned
 Difference between HTML attributes vs DOM properties
 DOM updates are destructive by default (innerHTML overwrites)
 Importance of event delegation for dynamic elements
@@ -44,7 +44,7 @@ Structuring code to avoid conflicts between multiple DOM operations
 Using localStorage for persistent data storage
 CSS custom properties for theme switching
 Modern DOM methods (prepend, append, before, after)
-Challenges Faced
+##Challenges Faced
 Elements returning null due to incorrect selectors
 Content disappearing due to multiple DOM overwrites
 Event delegation issues fixed using closest()
@@ -55,7 +55,7 @@ Managing state for filters and task completion
 Bug Fixes Applied
 ✅ Fixed task-list.js: Toggle completed class on parent li instead of span ✅ Fixed dom.js: Commented out destructive DOM operations ✅ Fixed dom.js: Proper error message creation and removal ✅ Fixed dom.js: Corrected event delegation selector (ul.nav-list) ✅ Fixed dom.js: Restructured form validation function scope ✅ Added proper error styling and message display
 
-Screenshots
+## Screenshots
 Task List To-do list
 
 Live Demo (if deployed)
