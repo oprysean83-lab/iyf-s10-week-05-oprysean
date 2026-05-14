@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Week 5: Interactive Web Apps</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="main-header">
+        <h1>DOM & Events Practice</h1>
+        <nav class="nav-list">
+            <ul>
+                <li><a href="#" class="nav-link">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- To-Do List Project -->
+        <section class="todo-section">
+            <h2>My To-Do List</h2>
+            <form id="todo-form">
+                <input type="text" id="todo-input" placeholder="What needs to be done?" required>
+                <button type="submit">Add</button>
+            </form>
+            <div class="filters">
+                <button class="filter active" data-filter="all">All</button>
+                <button class="filter" data-filter="active">Active</button>
+                <button class="filter" data-filter="completed">Completed</button>
+            </div>
+            <ul id="todo-list"></ul>
+            <div class="stats">
+                <span id="items-left">0 items left</span>
+                <button id="clear-completed">Clear Completed</button>
+            </div>
+        </section>
+
+        <!-- Daily Challenges Section -->
+        <section class="challenges">
+            <h2>Daily Challenges</h2>
+            <button id="color-changer">Day 1: Change Colors</button>
+            <button id="element-creator">Day 2: Add Paragraph</button>
+            <button id="image-toggle">Day 3: Toggle Images</button>
+            <div id="image-container"><img src="https://via.placeholder.com" alt="Sample"></div>
+            
+            <div class="copy-box">
+                <div id="source">Source Content</div>
+                <div id="target">Target (Empty)</div>
+                <button id="copy-btn">Day 4: Copy Content</button>
+            </div>
+            <button id="dark-toggle">Day 5: Dark Mode</button>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

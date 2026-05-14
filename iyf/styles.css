@@ -1,0 +1,8 @@
+body { font-family: sans-serif; padding: 20px; transition: 0.3s; }
+.dark-mode { background-color: #3915b9; color: white; }
+.container { max-width: 600px; margin: auto; }
+.completed { text-decoration: line-through; color: gray; }
+.todo-text { cursor: pointer; flex-grow: 1; }
+li { display: flex; justify-content: space-between; padding: 5px 0; border-bottom: 1px solid #eee; }
+.active { font-weight: bold; color: blue; }
+.error { border: 2px solid red; }
